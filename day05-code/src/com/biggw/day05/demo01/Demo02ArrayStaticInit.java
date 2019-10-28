@@ -17,7 +17,7 @@ package com.biggw.day05.demo01;
 * */
 public class Demo02ArrayStaticInit {
     public static void main(String[] args) {
-        int[] arrayA = {1, 2, 3, 4};
-        String[] arrayB = {"Python", "Java", "C++"};
+        int[] arrayA = new int[]{1, 2, 3, 4};
+        String[] arrayB = new String[]{"Python", "Java", "C++"};
     }
 }
