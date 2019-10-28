@@ -15,7 +15,7 @@ package com.biggw.day05.demo01;
 *
 * */
 
-public class Demo04ArrayUse {
+public class Demo04ArrayStaticUse {
     public static void main(String[] args) {
         int[] arrayA = {1, 2, 3, 4};
         System.out.println("arrayA = " + arrayA);
