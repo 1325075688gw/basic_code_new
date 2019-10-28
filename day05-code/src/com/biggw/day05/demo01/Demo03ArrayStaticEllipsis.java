@@ -43,8 +43,8 @@ public class Demo03ArrayStaticEllipsis {
         arrayD = new int[]{1, 2, 3, 4};
 
         // 静态初始化一旦使用省略格式，就不能拆分为两个步骤
-        int[] arrayE;
-        arrayE = {1, 2, 3, 4}
+//        int[] arrayE;
+//        arrayE = {1, 2, 3, 4}
 
     }
 }
