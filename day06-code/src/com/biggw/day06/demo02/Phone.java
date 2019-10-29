@@ -23,6 +23,7 @@ public class Phone {
 
 
         /*
+         * 错误
          * int a;
          * System.out.println("a = " + a);
          */
