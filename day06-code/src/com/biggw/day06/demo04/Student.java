@@ -40,6 +40,7 @@ public class Student {
         System.out.println("无参构造函数");
     }
 
+    // Java里面构造方法可以重载
     public Student(String name, int age) {
         System.out.println("有参构造函数");
         this.name = name;
