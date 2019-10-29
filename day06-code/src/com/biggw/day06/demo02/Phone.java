@@ -28,4 +28,9 @@ public class Phone {
          * System.out.println("a = " + a);
          */
     }
+
+    public void watch(int a) {
+        // 这儿不会因为a没有赋值而报错误,因为方法的执行需要调用,而调用就需要传递参数,所以我们一定会给形参赋值的,所以这儿不会报错。
+        System.out.println("a = " + a);
+    }
 }
