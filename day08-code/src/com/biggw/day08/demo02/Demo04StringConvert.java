@@ -14,6 +14,7 @@ import java.util.Arrays;
  * public byte[] getBytes(); 将当前字符串转化为字节数组
  * public String replace(Charsequence oldString, Charsequence newString); 将所有出现的oldString替换为newString
  *
+ *Charsequence:接口
  * */
 public class Demo04StringConvert {
     public static void main(String[] args) {
