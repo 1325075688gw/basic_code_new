@@ -25,6 +25,8 @@ public class Demo02ArrayList {
         // JDK 1.7及之后版本这么写
         ArrayList<String> arrayList = new ArrayList<>();
         System.out.println("arrayList = " + arrayList);
+
+        // 向ArrayList添加元素
         arrayList.add("齐天大圣");
         System.out.println("arrayList = " + arrayList);
         arrayList.add("美猴王");
