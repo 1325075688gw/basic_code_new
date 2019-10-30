@@ -10,15 +10,21 @@ import java.util.Random;
  */
 public class Demo04ArrayReturnEven {
     public static void main(String[] args) {
-        ArrayList<Integer> arrayList = methodEven();
+        ArrayList<ArrayList<Integer>> arrayList = methodEven();
         System.out.println();
+        System.out.println("arrayList = " + arrayList);
         for (int i = 0; i < arrayList.size(); i++) {
-            System.out.print(arrayList.get(i) + ",");
+            for (int j = 0; j < arrayList.get(i).size(); j++) {
+                int num = arrayList.get(i).get(j);
+                System.out.print(num + ",");
+            }
+            System.out.println();
         }
     }
 
-    public static ArrayList<Integer> methodEven() {
+    public static ArrayList<ArrayList<Integer>> methodEven() {
         Random random = new Random();
+        ArrayList<ArrayList<Integer>> arrayLists = new ArrayList<>();
         ArrayList<Integer> integers = new ArrayList<>();
         ArrayList<Integer> even = new ArrayList<>();
         ArrayList<Integer> odd = new ArrayList<>();
@@ -34,6 +40,9 @@ public class Demo04ArrayReturnEven {
         for (int i = 0; i < integers.size(); i++) {
             System.out.print(integers.get(i) + ",");
         }
-        return even;
+
+        arrayLists.add(even);
+        arrayLists.add(odd);
+        return arrayLists;
     }
 }
