@@ -24,7 +24,11 @@ public class Demo02StringGet {
         String str2 = "Python";
         String str3;
         str3 = str1.concat(str2);
-        System.out.println("str3 = " + str3);
+
+        // 字符串在Java中是不可改变的,所以,我们见到的新字符串都是新创建的
+        System.out.println("str1 = " + str1); // Hello 原封不动
+        System.out.println("str2 = " + str2); // Python 原封不动
+        System.out.println("str3 = " + str3); // Hello World 创建新的字符串
 
         // 获取指定索引位置的字符
         char ch = "fdafadsfasd".charAt(2);
