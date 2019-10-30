@@ -16,6 +16,8 @@ public class Student {
     private String name;
     private int id;
     private static String banji;
+
+    // 学号计数器（static）
     private static int numCounter;
 
     public Student(int age, String name) {
