@@ -11,7 +11,7 @@ package com.biggw.day08.demo04;
  * public static double abs(double num); 求绝对值
  * public static double ceil(double num); 向上取整
  * public static double floor(double num); 向下取整
- * public static long round(double num); 返回值不带小数点
+ * public static long round(double num); 返回值不带小数点,四舍五入
  *
  * Math.PI
  * */
