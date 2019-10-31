@@ -15,6 +15,8 @@ import java.util.Scanner;
  * 2.public E remove(int index) 删除一个元素,返回删除的元素
  * 3.public E get(int index) 查询索引位置元素
  * 4.public int size() 返回ArrayList集合的长度
+ * 5.public E set(int index, E e) 修改索引位置元素,返回被修改的元素,如果想修改最后一个元素,不能用-1,而是arraylist.size()-1
+ * 6.public boolean contains(E e) 判断集合中是否含有e元素
  * */
 
 public class Demo03ArrayListMethod {
@@ -32,5 +34,15 @@ public class Demo03ArrayListMethod {
         System.out.println("删除的元素是： " + string);
         String str = arrayList.get(1);
         System.out.println("str = " + str);
+        System.out.println("arrayList = " + arrayList);
+
+        // 修改ArrayList中的元素
+        String tmp =  arrayList.set(arrayList.size()-1, "六小龄童");
+        System.out.println("tmp = " + tmp);
+        System.out.println("arraylist = " + arrayList);
+
+        // 判断含有"齐天大圣"不
+        boolean in = arrayList.contains("齐天大圣");
+        System.out.println("in = " + in);
     }
 }
