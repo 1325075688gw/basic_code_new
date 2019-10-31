@@ -23,6 +23,6 @@ public class Demo01ArraysStaticMethod {
 
         String[] str = {"aaa", "ccc", "bbb"};
         Arrays.sort(str);
-        System.out.println("str = " + str);
+        System.out.println("str = " + Arrays.toString(str));
     }
 }
