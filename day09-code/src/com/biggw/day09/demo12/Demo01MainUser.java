@@ -15,6 +15,10 @@ public class Demo01MainUser {
         Member member2 = new Member("小东", 0);
         Member member3 = new Member("小西", 0);
 
+        // 编译看左,运行看右
+        User user1 = new Member("小西", 0);
+        user1.showMoney();
+
         manager.showMoney();
         member1.showMoney();
         member2.showMoney();

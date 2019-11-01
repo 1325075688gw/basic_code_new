@@ -15,6 +15,12 @@ public class Member extends User {
         super(name, money);
     }
 
+    @Override
+    public void showMoney() {
+        super.showMoney();
+        System.out.println("这是Member");
+    }
+
     public void receive(ArrayList<Integer> arrayList) {
         int index = new Random().nextInt(arrayList.size());
         int money = arrayList.remove(index);
