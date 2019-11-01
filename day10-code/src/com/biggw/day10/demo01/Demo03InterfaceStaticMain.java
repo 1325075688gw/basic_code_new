@@ -8,10 +8,11 @@ public class Demo03InterfaceStaticMain {
     public static void main(String[] args) {
         Demo03InterfaceStaticImpl one = new Demo03InterfaceStaticImpl();
 
-        // 错误
+        // 错误,静态方法直接通过接口,调用. 而不能用实现类或者实现类的对象调用
         // one.methodStatic();
+        // Demo03InterfaceStaticImpl.methodStatic();
 
-        // 静态方法直接通过接口,调用
+        // 静态方法直接通过接口,调用. 而不能用实现类或者实现类的对象调用
         Demo03InterfaceStatic.methodStatic();
     }
 }
