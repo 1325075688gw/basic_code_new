@@ -14,9 +14,12 @@ public class Demo01MainUser {
         Member member1 = new Member("小马", 0);
         Member member2 = new Member("小东", 0);
         Member member3 = new Member("小西", 0);
+        System.out.println("member3.here = " + member3.here);
 
-        // 编译看左,运行看右
+        // (方法)编译看左,运行看右
+        // (变量)编译看左,运行看左
         User user1 = new Member("小西", 0);
+        System.out.println("user1.here = " + user1.here);
         user1.showMoney();
 
         manager.showMoney();
@@ -25,6 +28,8 @@ public class Demo01MainUser {
         member3.showMoney();
 
         ArrayList<Integer> arrayList = manager.sendMoney(100, 3);
+        // 报错 (方法)编译看左,运行看右
+        // user1.receive(arrayList);
         manager.sendMoney(100, 3);
         member1.receive(arrayList);
         member2.receive(arrayList);

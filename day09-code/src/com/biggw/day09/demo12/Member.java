@@ -8,6 +8,7 @@ import java.util.Random;
  * @date 2019/10/31 0031 下午 22:46
  */
 public class Member extends User {
+    public String here ="Member";
     public Member() {
     }
 

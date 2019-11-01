@@ -7,6 +7,7 @@ package com.biggw.day09.demo12;
 public class User {
     private String name;
     private int money;
+    public String here = "User";
 
     public User() {
     }
