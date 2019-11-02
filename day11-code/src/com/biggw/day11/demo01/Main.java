@@ -9,10 +9,10 @@ public class Main {
         Person person = new Person();
         person.setName("高圆圆");
         System.out.println("person.getName() = " + person.getName());
-        person = new Person("哈利波特");
+        person = new Person("哈利波特","f");
         System.out.println("person.getName() = " + person.getName());
 
-        final Person person1 = new Person("白展堂");
+        final Person person1 = new Person("白展堂","fd");
         System.out.println("person1.getName() = " + person1.getName());
 
         final int a;

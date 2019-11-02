@@ -26,4 +26,24 @@ public class Person {
     public Person() {
         this.localMenber2 = "佟大为";
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public static String getLocalClass() {
+        return localClass;
+    }
+
+    public String getLocalMenber() {
+        return localMenber;
+    }
+
+    public String getLocalMenber2() {
+        return localMenber2;
+    }
 }
