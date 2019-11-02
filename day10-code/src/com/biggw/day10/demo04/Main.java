@@ -15,7 +15,7 @@ public class Main {
          *
          * 接口名称 对象名 = new 实现类名称();   implments
          *
-         *
+         * 方法：
          * 编译看左,运行看右
          * */
         Fu one = new Zi();
