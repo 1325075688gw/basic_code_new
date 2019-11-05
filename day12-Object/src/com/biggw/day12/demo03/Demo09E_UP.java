@@ -20,12 +20,12 @@ public class Demo09E_UP {
         ArrayList<Object> list4 = new ArrayList<>();
 
         getElement1(list1);
-        getElement1(list2); // 报错
+//        getElement1(list2); // 报错
         getElement1(list3);
-        getElement1(list4); // 报错
+//        getElement1(list4); // 报错
 
-        getElement2(list1); // 报错
-        getElement2(list2); // 报错
+//        getElement2(list1); // 报错
+//        getElement2(list2); // 报错
         getElement2(list3);
         getElement2(list4);
     }
