@@ -18,6 +18,9 @@ import java.util.Scanner;
  *
  *
  * 源码中的例子：
+ * public interface Iterator<E>{
+ *      E.next();
+ * }
  * Scanner类实现了Iterator接口,并指定接口的泛型为String,所以重写的next方法默认是String
  * public final class Scanner implements Iterator<String>{
  *      public String next(){
