@@ -1,5 +1,6 @@
 package com.biggw.day11.demo12;
 
+import com.sun.source.tree.NewArrayTree;
 import javafx.beans.binding.DoubleExpression;
 
 import java.util.ArrayList;
@@ -20,6 +21,10 @@ public class Test {
         System.out.println("===============");
         ArrayList<Double> arrayList = redPackage(100,10);
         System.out.println("arrayList = " + arrayList);
+        Object o = new Object();
+        System.out.println("o = " + o);
+        System.out.println("o.toString() = " + o.toString());
+//        System.out.println(this.hashCode()); 错误
     }
 
     public static List<Integer> randomList(int n, int m){
