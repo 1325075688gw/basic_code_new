@@ -44,10 +44,6 @@ public class DouDiZhu {
             }
         }
         System.out.println("player1 = " + player1);
-
-
-
-
         System.out.println("player2 = " + player2);
         System.out.println("player3 = " + player3);
         System.out.println("diPai = " + diPai);
